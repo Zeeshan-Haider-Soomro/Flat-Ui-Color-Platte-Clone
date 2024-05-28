@@ -6,6 +6,7 @@
 body{
     height: 100vh;
 }
+
 .row1{
     display: flex;
 }
@@ -14,6 +15,12 @@ body{
 .boxColor{
     width: 250px;
     height: 151px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
 #child1{
     background-color: #d24e4e;
